@@ -1,0 +1,39 @@
+content += "<br><br><form action=/specificArgs method=get>";
+  content += "<table>"
+  content += "<tr>";
+  content += "<td align="left"> "ordinal number inner ring:</td>"; 
+  content += "<td align="left"> <input type='text' size='2' name=ordinal_number_inner value='";
+  content += ON_inner;
+  content += "'> </td>; //<br>";
+  content += "</tr>;
+  content += "ordinal number outer ring: <input type='text' size='2' name=ordinal_number_outer value='";
+  content += ON_outer;
+  content += "'><br>";
+  content += "ordinal number rolling element: <input type='text' size='2' name=ordinal_number_ball value='";
+  content += ON_ball;
+  content += "'><br>";
+  content += "frequency of rotation: <input type='text' size='2' name=rot_freq value='";
+  content += F_rot;
+  content += "'><br>";
+  content += "<input type=submit value=send></form>";
+
+
+
+
+
+URSPRUNG:
+
+content += "<br><br><form action=/specificArgs method=get>";
+  content += "ordinal number inner ring: <input type='text' size='2' name=ordinal_number_inner value='";
+  content += ON_inner;
+  content += "'><br>";
+  content += "ordinal number outer ring: <input type='text' size='2' name=ordinal_number_outer value='";
+  content += ON_outer;
+  content += "'><br>";
+  content += "ordinal number rolling element: <input type='text' size='2' name=ordinal_number_ball value='";
+  content += ON_ball;
+  content += "'><br>";
+  content += "frequency of rotation: <input type='text' size='2' name=rot_freq value='";
+  content += F_rot;
+  content += "'><br>";
+  content += "<input type=submit value=send></form>";
